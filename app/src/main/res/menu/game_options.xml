@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ai_level"
+        android:title="@string/menu_level"
+        android:icon="@drawable/icon_setup">
+        <menu>
+            <item
+                android:id="@+id/ai_stupid"
+                android:title="@string/menu_level_stupid"/>
+            <item
+                android:id="@+id/ai_smart"
+                android:title="@string/menu_level_smart"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/restart"
+        android:title="@string/menu_restart"
+        android:icon="@drawable/info"/>
+    <item
+        android:id="@+id/exit"
+        android:title="@string/menu_exit"
+        android:icon="@drawable/icon_close"/>
+</menu>
